@@ -1,0 +1,148 @@
+* {
+    background-image: url(/imagens/arvore.png) ;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 15%;
+}
+main {
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 80px;
+
+}
+.text-area {
+    border: 10px solid #0a1871;
+    color: #010509;
+    margin-top: 117px;
+    margin-left: -50px;
+    text-transform: lowercase;
+    border-radius: 6%;
+}
+::placeholder { color:#000000; }
+    .text-area:focus {
+        outline: none;
+    }
+.mensagem {
+    background: white;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: 10px solid #0a1871;
+    border-radius: 6%;
+    color:#000000;
+    margin-left: -14px;
+    margin-top: -10%;
+    padding-left: 20px,-20%;
+    position:fixed;
+}
+.mensagem:focus {
+    outline: none;
+
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar:hover {
+    
+    background-image: url(/imagens/grama-rosa.png);
+}
+.btn-desencriptar {
+    background: #ffffff;
+    border: 6px solid ;
+    border-radius: 24px;
+    color: #710a0a;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar:hover {
+    background-image: url(/imagens/grama-rosa.png);
+}
+.btn-encriptar {
+    background-color: #d46d0c;
+    border: 6px solid #710a0a;
+    border-radius: 24px;
+    color: #710a0a;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar:hover {
+    background-image: url(/imagens/grama-rosa.png);
+}
+.btn-copiar {
+    background-color: #d46d0c;
+    border: 6px solid ;
+    border-radius: 24px;
+    color: #710a0a ;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 335px;
+    position: fixed;
+    width: 336px;
+}
+.informacao {
+    color: #4c463c;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    * {
+        font-size: 18px;
+    }
+
+    .logoAlura {
+        width: 50%;
+        margin-left: 0;
+        padding-top: 5px;
+    }
+
+    main {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text-area {
+        margin-top: 1px;
+        margin-left: -11px;
+        width: 100%;
+    }
+
+    .mensagem {
+        margin-left: -16px;
+        margin-top: 1px;
+        width: 100%;
+        padding-left: 10px;
+        position: static;
+    }
+
+    .botoes {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .btn-desencriptar,.btn-encriptar,.btn-copiar {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .btn-copiar {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .informacao {
+        font-size: 16px;
+    }
+}
+
+
+
